@@ -1,0 +1,80 @@
+# Игнорировать скомпилированные Python файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Игнорировать виртуальные окружения
+env/
+venv/
+ENV/
+.venv/
+.python-version
+
+# Игнорировать временные и кэшированные файлы
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.temp
+
+# Игнорировать файлы среды разработки (IDE)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Игнорировать установленные пакеты и зависимости
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# Игнорировать базу данных sqlite (если используется)
+*.sqlite3
+
+# Игнорировать файлы Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Игнорировать файлы тестирования и отладки
+.tox/
+.nox/
+coverage/
+*.cover
+.hypothesis/
+.pytest_cache/
+.cache/
+*.coverage
+
+# Игнорировать конфигурационные файлы
+*.cfg
+*.ini
+*.env
+.env.*
+.envrc
+
+# Игнорировать файлы сгенерированные документации
+docs/_build/
+
+# Игнорировать файлы ОС
+.DS_Store
+Thumbs.db
+
+# Игнорировать файловый вывод и сборочные артефакты
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Игнорировать wheel файлы
+*.whl
+
+# Игнорировать lock-файлы для зависимости управления пакетами
+Pipfile.lock
+poetry.lock
